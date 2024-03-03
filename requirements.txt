@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib.pyplot
+seaborn
+warnings
+statsmodels.tsa.stattools
+statmodels.tsa.arima.model
+sklearn.metrics
+statsmodels.api
+Ipython.display
+rampwf
