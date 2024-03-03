@@ -1,27 +1,3 @@
-# import numpy as np
-# from sklearn.base import BaseEstimator
-# from statsmodels.tsa.arima.model import ARIMA
-
-
-# class ARIMAModel(BaseEstimator):
-#     def __init__(self, order=(8, 0, 2)):
-#         self.order = order
-#         self.model = None
-
-#     def fit(self, X, y):
-#         # Fit the ARIMA model
-#         self.model = ARIMA(y, order=self.order).fit()
-#         return self
-
-#     def predict(self, X):
-#         pred = self.model.predict(start=1, end=len(X))
-#         return pred
-    
-
-# def get_estimator():
-#     return ARIMAModel(order=(8, 0, 2))
-
-
 import numpy as np
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
